@@ -1,0 +1,24 @@
+{
+  "name": "note-todo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
